@@ -35,10 +35,10 @@ repeat = 1000  # Wiederholungen
 random.shuffle(words)
 
 # Array für reguläre Sortierung
-arr = words[:items]
+#arr = words[:items]
 
 # Array für umgekehrte Liste
-#arr = list(reversed(words))[:items]
+arr = list(reversed(words))[:items]
 
 # Array für few uniques
 #randomwords = random.sample(words, 10)
